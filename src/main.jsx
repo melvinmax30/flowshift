@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { SuccessPage } from './pages/SuccessPage';
+import App from './App'; // Make sure this points to your App.jsx
+import './index.css'; // Or your Tailwind/global styles
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SuccessPage />
+    <App />
   </React.StrictMode>
 );
